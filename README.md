@@ -27,7 +27,7 @@ Basic knowledge of Html and CSS.
 Git clone or Fork this Repository...
 
 
-## Authors
+## Author
 
 👤 **Author1**
 Get in touch with Uchechi Nwaka.
