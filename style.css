@@ -333,6 +333,130 @@ a:hover {
 }
 
 /* Css styles for about section */
+.tech-toolss {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  background-color: #fff;
+}
+
+.tech-toolss li {
+  height: 67px;
+  border-radius: 8px;
+  background: #f7f7f9;
+  margin-bottom: 12px;
+}
+
+.skill {
+  height: 66.7155990600586px;
+  width: 303px;
+  border-radius: 8px;
+  background: #f7f7f9;
+  margin-bottom: 12px;
+  padding-left: 12px;
+}
+
+.lang a {
+  font-size: 29px;
+  display: inline;
+  text-align: center;
+  color: black;
+}
+
+.lang span {
+  position: absolute;
+  right: 120px;
+}
+
+.listimg {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.listimg img {
+  margin-left: 12px;
+  width: 40px;
+  height: 40px;
+}
+
+.listimg a {
+  margin-left: 12px;
+  color: #000;
+}
+
+.skill-format {
+  display: flex;
+  align-items: center;
+  color: #000;
+  height: 66.7155990600586px;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.btt-arr {
+  margin-left: 189px;
+  font-size: 32px;
+  background: transparent;
+  border: none;
+}
+
+.skill-margin {
+  margin-left: 60px;
+}
+
+.framework {
+  border-bottom: 1px solid #c8c8ca;
+}
+
+.listimg {
+  display: flex;
+  flex-direction: column;
+}
+
+.stack-lists {
+  display: flex;
+}
+
+.listimg a {
+  margin: 5px auto;
+}
+
+.skill-list {
+  position: absolute;
+  left: 600px;
+}
+
+.skills-tools {
+  display: flex;
+  justify-content: space-between;
+}
+
+summary {
+  font-size: 32px;
+  margin-top: 15px;
+}
+
+.skill-margin {
+  margin-left: 62px;
+}
+
+.tech-toolss li {
+  width: 122px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #f7f7f9;
+  margin-right: 12px;
+}
+
+.tech-toolss img {
+  margin: 0 auto;
+}
+.skill-lang {
+  margin-left: 392px;
+}
 
 .about {
   display: grid;

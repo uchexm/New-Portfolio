@@ -12,6 +12,15 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css" />
     <title>Uchechi Nwaka</title>
   </head>
@@ -160,7 +169,7 @@
             </li>
           </ul>
           <div class="action">
-            <a href="#" class="atn_btn">Get my resume</a>
+            <a href="https://drive.google.com/file/d/1apnSWV0Gb0nZQnGToL2ylvuB_tJI5r8D/view?usp=sharing" class="atn_btn">Get my resume</a>
           </div>
         </div>
         <div class="about-framework">
@@ -190,26 +199,48 @@
               </li>
             </div>
           </ul>
-          <ul class="about_ul">
-            <h3 class="sub_title">
-              Frameworks
-              <img
-                class="arrow_icon"
-                src="./images/right-arrow-icon.png"
-                alt="down"
-              />
-            </h3>
-          </ul>
-          <ul class="about_ul">
-            <h3 class="sub_title">
-              Skills
-              <img
-                class="arrow_icon"
-                src="./images/right-arrow-icon.png"
-                alt="down"
-              />
-            </h3>
-          </ul>
+          <details class="tech-toolss tools-ul" id="2">
+            <summary>Framework</summary>
+            <ul class="tech-toolss tools-ul">
+            </li>
+            <li class="listimg">
+              <img src="/img/react.png" alt="css" /><a href="#"
+                >React</a
+              >
+            </li>
+            <li class="listimg">
+              <img src="/img/rub.png" alt="css" /><a href="#"
+                >Ruby <br> on Rails</a
+              >
+            </li>
+            </ul>
+          </details>
+          <details id="3">
+            <summary>Skills</summary>
+            <ul class="skills-tools tools-ul">
+              <li class="listimg">
+                <img src="/img/collaboration.png" alt="javascript" /><a
+                  href="#"
+                  >Collaboration</a
+                >
+              </li>
+              <li class="listimg">
+                <img src="/img/leader.png" alt="html" /><a href="#"
+                  >Leadership</a
+                >
+              </li>
+              <li class="listimg">
+                <img src="/img/empathy.png" alt="css" /><a href="#"
+                  >Teamwork</a
+                >
+              </li>
+              <li class="listimg">
+                <img src="/img/patience.png" alt="css" /><a href="#"
+                  >Perseverance</a
+                >
+              </li>
+            </ul>
+          </details>
         </div>
       </section>
 
@@ -243,7 +274,7 @@
                 name="email"
                 id="email"
                 type="email"
-                placeholder="nwakauc1@gmail.com"
+                placeholder="email@example.com"
                 required
               />
               <textarea

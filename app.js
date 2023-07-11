@@ -326,4 +326,3 @@ inputEmail.addEventListener('change', () => {
   formInfo.innerText = '';
 }
 );
-
