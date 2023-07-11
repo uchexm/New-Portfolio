@@ -79,7 +79,7 @@ If you have any feedback, or just want to say hi, feel free to reach out to me.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/uchexm/Portfolio).
+Feel free to check the [issues page](https://github.com/uchexm/Portfolio/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
